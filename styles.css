@@ -1,0 +1,38 @@
+body{
+    width: auto;
+    background-color:rgb(254, 255, 255);
+}
+
+.divprincipal{
+    display: flex;
+    justify-content: center;
+    width: auto;
+    height: auto;
+    background-color: rgb(255, 255, 255);
+}
+
+.divcentral{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 500px;
+    background-color: rgb(0, 0, 0);
+    height: 600px;
+    border-radius: 100px;
+}
+
+.divinter{
+    font-size: larger;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: aliceblue
+    ;
+}
+
+.boton_seleccion{
+    border-radius: 160px;
+    width: 25px;
+    height: 25px;
+}
