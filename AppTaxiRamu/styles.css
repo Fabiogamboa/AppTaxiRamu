@@ -1,7 +1,7 @@
 body{
-    background-image: url(https://st4.depositphotos.com/32466374/40208/v/450/depositphotos_402088470-stock-illustration-checkerboard-black-white-background-checker.jpg);
-    background-position: cover;
-    background-repeat: no-repeat;
+    width: auto;
+    height: auto;
+    background-color:rgb(254, 255, 255);
 }
 
 
@@ -16,7 +16,7 @@ body{
 #Ajuste_base{
     color: aliceblue;
     justify-content: flex-start;
-    padding-bottom: 150px;
+    padding-bottom: 10px;
 }
 
 #ajuste_base_centro{
