@@ -1,0 +1,162 @@
+/* Fondo azul*/
+body {
+    background: #95D5E3;
+}
+
+.TeleTaxi {
+    color: rgb(0, 0, 0);
+    text-align: center;
+    font-family: sans-serif;
+    font-style: italic;
+    font-weight: 800;
+    text-shadow: 0px 4px 4px rgba;
+    font-size: 60px;
+    line-height: 97px;
+}
+
+.FondoNegro {
+    background: #000000;
+    border: 1px solid #000000;
+    border-radius: 40px;
+    height: 565px;
+}
+
+.IniciarSesion {
+    color: #FFFFFF;
+    text-align: center;
+    font-family: sans-serif;
+    font-style: italic;
+    font-weight: 900;
+    font-size: 60px;
+    line-height: 130px;
+}
+
+.ClaveAcceso {
+    position: absolute;
+    left: 30px;
+    color: #FFFFFF;
+    font-family: sans-serif;
+    font-style: italic;
+    font-weight: 900;
+    font-size: 35px;
+}
+
+.Escribir1 {
+    position: absolute;
+    left: 80px;
+    background: #FFFFFF;
+    border-radius: 40px;
+    width: 600px;
+    height: 50px;
+    top: 290px;
+}
+
+#Input {
+    border-radius: 40px;
+    width: 600px;
+    height: 50px;
+}
+
+.CodigoInteraccion {
+    position: absolute;
+    left: 30px;
+    color: #FFFFFF;
+    font-family: sans-serif;
+    font-style: italic;
+    font-weight: 900;
+    font-size: 35px;
+    top: 350px;
+}
+
+.Escribir2 {
+    position: absolute;
+    left: 80px;
+    background: #FFFFFF;
+    border-radius: 40px;
+    width: 600px;
+    height: 50px;
+    top: 405px;
+}
+
+#Input2 {
+    border-radius: 40px;
+    width: 600px;
+    height: 50px;
+}
+
+.ClaveUnica {
+    position: absolute;
+    left: 30px;
+    color: #FFFFFF;
+    font-family: sans-serif;
+    font-style: italic;
+    font-weight: 900;
+    font-size: 35px;
+    top: 460px;
+}
+
+.Escribir3 {
+    position: absolute;
+    left: 80px;
+    background: #FFFFFF;
+    border-radius: 40px;
+    width: 600px;
+    height: 50px;
+    top: 515px;
+}
+
+#Input3 {
+    border-radius: 40px;
+    width: 600px;
+    height: 50px;
+}
+
+.Boton1 {
+    position: absolute;
+    right: 200px;
+    background: #FFFFFF;
+    border-radius: 40px;
+    width: 130px;
+    height: 50px;
+    top: 580px;
+    cursor: pointer;
+}
+
+.Boton1:hover {
+    box-shadow: 0 0 15px rgba(255, 255, 255, 0.8); 
+}
+
+.Entrar {
+    position: absolute;
+    left: 30px;
+    font-family: sans-serif;
+    font-style: italic;
+    font-weight: 900;
+    font-size: 20px;
+    top: 9px;
+}
+
+.Boton2 {
+    position: absolute;
+    right: 50px;
+    background: #FFFFFF;
+    border-radius: 40px;
+    width: 130px;
+    height: 50px;
+    top: 580px;
+    cursor: pointer;
+}
+
+.Boton2:hover {
+    box-shadow: 0 0 15px rgba(255, 255, 255, 0.8); 
+}
+
+.Cancelar {
+    position: absolute;
+    left: 13px;
+    font-family: sans-serif;
+    font-style: italic;
+    font-weight: 900;
+    font-size: 20px;
+    top: 9px;
+}
