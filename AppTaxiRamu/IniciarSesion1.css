@@ -1,10 +1,13 @@
-/* Fondo azul*/
 body {
-    background: #ffffff;
+    width: 100vw;
+    height: 100vh;
+    background-image: url(https://img.freepik.com/vector-premium/plaza-fondo-taxi_126205-40.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .TeleTaxi {
-    color: rgb(0, 0, 0);
+    color: rgb(255, 0, 0);
     text-align: center;
     font-family: sans-serif;
     font-style: italic;
