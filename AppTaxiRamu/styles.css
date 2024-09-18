@@ -4,7 +4,10 @@ body{
     background-color:rgb(254, 255, 255);
 }
 
-
+#queso{
+    width: 1900px;
+    height: 100px;
+}
 .divprincipal{
     display: flex;
     justify-content: center;
