@@ -2,39 +2,46 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Teletaxigogo</title>
-
-    <Link rel="stylesheet" href="IniciarSesion1.css">
+    <title>Teletaxi</title>
+    <link rel="stylesheet" href="IniciarSesion1.css">
 </head>
 
 <body>
 
     <div class="TeleTaxi">Teletaxi</div>
-        <div class="FondoNegro">
-        <div class="IniciarSesion">Iniciar Sesion</div>
-        <div class="ClaveAcceso">Clave unica</div>
+
+    <div class="FondoNegro">
+        <div class="IniciarSesion">Iniciar Sesión</div>
+        
+        <label class="ClaveAcceso" for="Escribir">Clave única</label>
         <div class="Escribir1">
-            <input id="Escribir" type="password" placeholder="Ingrese Clave"></div>
+            <input id="Escribir" type="password" placeholder="Ingrese Clave">
+        </div>
 
-        <div class="CodigoInteraccion">Id de trabajador</div>
+        <label class="CodigoInteraccion" for="Escribir2">ID de trabajador</label>
         <div class="Escribir2">
-            <input id="Escribir2" type="password" placeholder="Ingrese Codigo"></div>  
+            <input id="Escribir2" type="password" placeholder="Ingrese Código">
+        </div>  
 
-        <div class="ClaveUnica">Clave Acceso:</div>
+        <label class="ClaveUnica" for="Escribir3">Clave Acceso:</label>
         <div class="Escribir3">
             <input id="Escribir3" type="password" placeholder="Ingrese Clave">
         </div>
 
-        <div class="Boton1">
-            <a href="pagina_principal_admin.html">
-                <div class="Entrar">Entrar</div>
-            </a>
+        <div class="Botones">
+            <div class="Boton1">
+                <a href="Bienvenido_Administrador.html" class="BotonLink">
+                    <div class="Entrar">Entrar</div>
+                </a>
+            </div>
+
+            <div class="Boton2">
+                <a href="index.html" class="BotonLink">
+                    <div class="Cancelar">Cancelar</div>
+                </a>
+            </div>
         </div>
-        <Div class="Boton2">
-            <a href="index.html">
-                <div class="Cancelar">Cancelar</div>
-            </a>
-        </Div>
+    </div>
 
 </body>
 </html>
