@@ -1,9 +1,14 @@
 body {
     width: 100vw;
     height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     background-image: url(https://img.freepik.com/vector-premium/plaza-fondo-taxi_126205-40.jpg);
     background-size: cover;
     background-repeat: no-repeat;
+    margin: 0;
 }
 
 .TeleTaxi {
@@ -12,138 +17,102 @@ body {
     font-family: sans-serif;
     font-style: italic;
     font-weight: 800;
-    text-shadow: 0px 4px 4px rgba;
     font-size: 60px;
-    line-height: 97px;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.3);
 }
 
 .FondoNegro {
     background: #000000;
     border: 1px solid #000000;
     border-radius: 40px;
-    height: 565px;
-    margin: 30px;
+    padding: 20px;
+    width: 80%;
+    max-width: 600px;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 20px;
+    justify-items: center;
 }
 
-.IniciarSesion {
-    color: #FFFFFF;
-    text-align: center;
-    font-family: sans-serif;
-    font-style: italic;
-    font-weight: 900;
-    font-size: 60px;
-    line-height: 130px;
-}
-
-.ClaveAcceso {
-    position: absolute;
-    left: 80px;
+.ClaveAcceso[for="Escribir"], 
+.CodigoInteraccion[for="Escribir2"], 
+.ClaveUnica[for="Escribir3"] {
     color: #FFFFFF;
     font-family: sans-serif;
     font-style: italic;
     font-weight: 900;
-    font-size: 35px;
+    font-size: 24px;
+    width: 100%;
 }
 
-
-#Escribir {
-    position: absolute;
-    left: 80px;
+#Escribir, #Escribir2, #Escribir3 {
     background: #FFFFFF;
-    border-radius: 40px;
-    width: 600px;
+    border-radius: 10px;
+    width: 100%;
     height: 50px;
-    top: 310px;
+    border: none;
+    padding: 10px;
+    font-size: 18px;
 }
 
-.CodigoInteraccion {
-    position: absolute;
-    left: 80px;
-    color: #FFFFFF;
-    font-family: sans-serif;
-    font-style: italic;
-    font-weight: 900;
-    font-size: 35px;
-    top: 365px;
+.Botones {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
 }
 
-#Escribir2 {
-    position: absolute;
-    left: 80px;
-    background: #FFFFFF;
-    border-radius: 40px;
-    width: 600px;
-    height: 50px;
-    top: 415px;
-}
-
-.ClaveUnica {
-    position: absolute;
-    left: 80px;
-    color: #FFFFFF;
-    font-family: sans-serif;
-    font-style: italic;
-    font-weight: 900;
-    font-size: 35px;
-    top: 470px;
-}
-
-#Escribir3 {
-    position: absolute;
-    left: 80px;
-    background: #FFFFFF;
-    border-radius: 40px;
-    width: 600px;
-    height: 50px;
-    top: 515px;
-}
-
-.Boton1 {
-    position: absolute;
-    right: 300px;
+.Boton1, .Boton2 {
     background: #FFFFFF;
     border-radius: 40px;
     width: 130px;
     height: 50px;
-    top: 630px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     cursor: pointer;
 }
 
-.Boton1:hover {
+.Boton1:hover, .Boton2:hover {
     box-shadow: 0 0 15px rgba(255, 255, 255, 0.8); 
 }
 
-.Entrar {
-    position: absolute;
-    left: 20px;
+input:focus {
+    outline: 3px solid blue;
+}
+
+a.BotonLink:hover, a.BotonLink:active {
+    text-decoration: none;
+}
+
+.Entrar, .Cancelar {
     font-family: sans-serif;
     font-style: italic;
     font-weight: 900;
     font-size: 25px;
-    top: 6px;
 }
 
-.Boton2 {
-    position: absolute;
-    right: 150px;
-    background: #FFFFFF;
-    border-radius: 40px;
-    width: 130px;
-    height: 50px;
-    top: 630px;
-    cursor: pointer;
+.Boton1 > .Entrar + .Cancelar {
+    color: red;
 }
 
-.Boton2:hover {
-    box-shadow: 0 0 15px rgba(255, 255, 255, 0.8); 
-}
+    .TeleTaxi {
+        font-size: 40px;
+    }
+    .FondoNegro {
+        width: 90%;
+    }
+    .ClaveAcceso, .CodigoInteraccion, .ClaveUnica {
+        font-size: 18px;
+    }
+    input {
+        height: 40px;
+        font-size: 16px;
+    }
+    .Boton1, .Boton2 {
+        width: 100px;
+        height: 40px;
+    }
+    .Entrar, .Cancelar {
+        font-size: 20px;
+    }
 
-.Cancelar {
-    position: absolute;
-    left: 2px;
-    font-family: sans-serif;
-    font-style: italic;
-    font-weight: 900;
-    font-size: 25px;
-    top: 6px;
-}
