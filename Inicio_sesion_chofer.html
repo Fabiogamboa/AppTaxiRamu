@@ -2,39 +2,46 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Teletaxigogo</title>
-
-    <Link rel="stylesheet" href="IniciarSesion1.css">
+    <title>Teletaxi</title>
+    <link rel="stylesheet" href="InicioSesionChofer.css">
 </head>
 
 <body>
 
-    <div class="TeleTaxi">TeleTaxi</div>
-        <div class="FondoNegro">
-        <div class="IniciarSesion">Iniciar Sesion</div>
-        <div class="ClaveAcceso">Id de trabajador:</div>
+    <div class="TeleTaxi">Teletaxi</div>
+
+    <div class="FondoNegro">
+        <div class="IniciarSesion">Iniciar Sesión</div>
+        
+        <label class="ClaveAcceso" for="Escribir">Id del trabajador:</label>
         <div class="Escribir1">
-            <input id="Escribir" type="password" placeholder="Ingrese su id de trabajador"></div>
+            <input id="Escribir" type="password" placeholder="ID">
+        </div>
 
-        <div class="CodigoInteraccion">Contraseña:</div>
+        <label class="CodigoInteraccion" for="Escribir2">Contraseña:</label>
         <div class="Escribir2">
-            <input id="Escribir2" type="password" placeholder="Ingrese su Contraseña"></div>  
+            <input id="Escribir2" type="password" placeholder="Contraseña">
+        </div>  
 
-        <div class="ClaveUnica">Cedula:</div>
+        <label class="ClaveUnica" for="Escribir3">Ingrese su Cedula:</label>
         <div class="Escribir3">
-            <input id="Escribir3" type="password" placeholder="Ingrese su cedula">
+            <input id="Escribir3" type="password" placeholder="Cedula">
         </div>
 
-        <div class="Boton1">
-            <a href="pagina_principal_chofer.html">
-                <div class="Entrar">Entrar</div>
-            </a>
+        <div class="Botones">
+            <div class="Boton1">
+                <a href="Bienvenido_Chofer.html" class="BotonLink">
+                    <div class="Entrar">Entrar</div>
+                </a>
+            </div>
+
+            <div class="Boton2">
+                <a href="index.html" class="BotonLink">
+                    <div class="Cancelar">Cancelar</div>
+                </a>
+            </div>
         </div>
-        <Div class="Boton2">
-            <a href="index.html">
-                <div class="Cancelar">Cancelar</div>
-            </a>
-        </Div>
+    </div>
 
 </body>
 </html>
