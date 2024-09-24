@@ -15,7 +15,9 @@ body {
     background-color: blanchedalmond;
 }
 
-
+h1{
+    color:white;
+}
 #Ajuste_base{
     color: aliceblue;
     justify-content: center;
@@ -56,6 +58,19 @@ body {
     color: aliceblue;
 
 }
+
+.boton_nor{
+    border-radius: 20px;
+    width: 250px;
+}
+
+.boton_nor:hover{
+    transform: scale(1.5);
+    background-color: rgb(255, 255, 255);
+    transition:transform 0.3s ease-in-out;
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.8); 
+}
+
 
 .boton_seleccion{
     border-radius: 160px;

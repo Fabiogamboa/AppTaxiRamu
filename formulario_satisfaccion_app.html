@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Encuesta de Satisfacción - Teletaxi</title>
+    <link rel="stylesheet" href="style_form.css">
+</head>
+<body>
+    <div class="divcon">
+        <form action="respuesta.html" method="get">
+            <fieldset>
+                <legend>Información General</legend>
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre" placeholder="Ingrese su nombre">
+
+                <label for="email">Correo electrónico:</label>
+                <input type="email" id="email" name="email"  placeholder="Ingrese su correo electrónico">
+            </fieldset>
+    
+            <fieldset>
+                <legend>Calificación del Servicio</legend>
+                <p>Califica del 1 al 5 tu satisfacción con los siguientes aspectos:</p>
+                <ul>
+                    <li>
+                        Tiempo de espera:
+                        <input type="range" min="1" max="5" name="tiempo_espera">
+                    </li>
+                    <li>
+                        Amabilidad del conductor:
+                        <input type="range" min="1" max="5" name="amabilidad_conductor">
+                    </li>
+                    <li>
+                        Confort del vehículo:
+                        <input type="range" min="1" max="5" name="confort_vehiculo">
+                    </li>
+                    <li>
+                        Precio del servicio:
+                        <input type="range" min="1" max="5" name="precio_servicio">
+                    </li>
+                </ul>
+            </fieldset>
+
+            <fieldset>
+            <legend>Género</legend>
+            <label><input type="radio" name="genero" value="masculino"> Masculino</label>
+            <label><input type="radio" name="genero" value="femenino"> Femenino</label>
+            <label><input type="radio" name="genero" value="otro"> Otro</label>
+            </fieldset>
+
+            <fieldset>
+                <legend>Tipo de vehiculos</legend>
+                <p>¿Que tipo de vehiculos ha usado en la mayoria de veces que solicito el servicio?</p>
+                <select id="vehiculo" name="tipo vehiculos">
+                    <option value="camioneta">Camioneta</option>
+                    <option value="camion">Camion</option>
+                    <option value="auto particular">Particular</option>
+                </select>
+            </fieldset>
+
+            <fieldset>
+                <legend>Consulta extra</legend>
+                <p>¿Que otros medios de pago preferiria tener en un futuro?</p>
+                <label><input type="checkbox"> Tarjeta </label>
+                <label><input type="checkbox"> Transferencia</label>
+                <label><input type="checkbox"> Apps de banco</label>
+                <label><input type="checkbox"> Efectivo</label>
+            </fieldset>
+    
+            <fieldset>
+                <legend>Comentarios Adicionales</legend>
+                <textarea name="comentarios" rows="5" cols="50" placeholder="Ingresa aqui tus sugerenciasgogo"></textarea>
+            </fieldset>
+
+            <fieldset>
+                <legend>Enviar formulario</legend>
+                <input type="submit" id="gogo">
+            </fieldset>
+        </form>
+    </div>
+</body>
+</html>

@@ -1,0 +1,40 @@
+body{
+    display: flex;
+    justify-content: center;
+    background-image: url(https://img.freepik.com/vector-premium/plaza-fondo-taxi_126205-40.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.divcon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 650px;
+    background-color: rgb(255, 158, 68);
+    border-radius: 50px;
+    border:3px solid black;
+    padding: 4px;
+    overflow:hidden;
+}
+
+li{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+fieldset{
+    border: solid 3px;
+}
+
+textfield{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#gogo{
+    background-color: rgb(74, 230, 241);
+    border-radius: 20px;
+}
+
+#gogo:hover{
+    background-color: rgb(180, 112, 245);
+}
