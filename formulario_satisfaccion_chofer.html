@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Encuesta de Choferes de Teletaxi</title>
+    <link rel="stylesheet" href="style_form.css">
+</head>
+<body>
+    <div class="divcon">
+        <form action="resultado.html" method="get">
+            <fieldset>
+                <legend>Encuesta de Choferes de Teletaxi</legend>
+
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre" placeholder="Ingrese su nombre" required>
+
+                <label for="email">Correo electronico:</label>
+                <input type="email" id="email" name="email" placeholder="Ingrese su correo electrónico" required>
+            </fieldset>
+
+            <fieldset>
+                <legend>Frecuencia de Uso de Teletaxi</legend>
+                <p>¿Con que frecuencia utilizas la app Teletaxi?</p>
+                <select name="frecuencia_teletaxi" required>
+                    <option value="nunca">Nunca</option>
+                    <option value="1-2 veces por semana">1-2 veces por semana</option>
+                    <option value="3-4 veces por semana">3-4 veces por semana</option>
+                    <option value="a diario">A diario</option>
+                </select>
+            </fieldset>
+
+            <fieldset>
+                <legend>Calificación del Chofer</legend>
+                <p>Califica del 1 al 5 tu satisfacción con los siguientes aspectos del chofer:</p>
+                <ul>
+                    <li>
+                        Puntualidad:
+                        <input type="range" min="1" max="5" name="puntualidad" required>
+                    </li>
+                    <li>
+                        Amabilidad:
+                        <input type="range" min="1" max="5" name="amabilidad" required>
+                    </li>
+                    <li>
+                        Conduccion (seguridad y confort):
+                        <input type="range" min="1" max="5" name="conduccion" required>
+                    </li>
+                    <li>
+                        Presentacion personal:
+                        <input type="range" min="1" max="5" name="presentacion" required>
+                    </li>
+                </ul>
+            </fieldset>
+
+            <fieldset>
+                <legend>Calificación de la Experiencia General</legend>
+                <p>Califica tu experiencia general con Teletaxi del 1 al 5:</p>
+                <input type="range" min="1" max="5" name="experiencia_general" required>
+            </fieldset>
+
+            <fieldset>
+                <legend>Recomendaciones</legend>
+                <p>¿Que sugerencias o recomendaciones tienes para mejorar el servicio de los choferes?</p>
+                <textarea name="recomendaciones" rows="5" cols="50" placeholder="Escribe tus sugerencias aquí"></textarea>
+            </fieldset>
+
+            <fieldset>
+                <legend>Enviar formulario</legend>
+                <input type="submit" id="Enviar">
+            </fieldset>
+        </form>
+    </div>
+</body>
+</html>
