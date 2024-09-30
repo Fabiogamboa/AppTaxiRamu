@@ -101,3 +101,10 @@ h1{
     width: auto;
     
 }
+
+.centradoxd{
+    display: flex;
+    align-items: center;
+    align-self: center;
+    justify-content: center;
+}
