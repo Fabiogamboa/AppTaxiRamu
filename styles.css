@@ -108,3 +108,68 @@ h1{
     align-self: center;
     justify-content: center;
 }
+
+.elemento1 {
+    width: 300px;
+    height: 100px;
+    background-color: rgb(0, 247, 255);
+    border: 6px solid rgb(55, 255, 6);
+    color: white;
+    text-align: center;
+    line-height: 100px;
+    margin-bottom: 20px;
+}
+
+.contenedorMovimiento {
+    width: 500px;
+    height: 300px;
+    position: relative;
+    overflow: hidden;
+    margin: 0 auto;
+}
+
+.contenedorMovimiento .imagen1 {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    animation-name: movimientos;
+    animation-duration: 5s;
+    animation-timing-function: ease-in-out;
+    animation-delay: 0.5s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-fill-mode: both;
+    animation-play-state: running;
+}
+
+.textoimagen {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 3rem;
+    font-weight: bold;
+    text-shadow: 2px 2px 4px rgba(255, 0, 0, 0.7);
+    pointer-events: none; /* Para que no afecte la interacción con la imagen */
+}
+
+@keyframes movimientos {
+    0% {
+        transform: translateX(-100%);
+        opacity: 0;
+    }
+    50% {
+        transform: translateX(0);
+        opacity: 1;
+    }
+    100% {
+        transform: translateX(100%);
+        opacity: 0;
+    }
+}
